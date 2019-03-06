@@ -20,7 +20,11 @@ h1, h2 {
 #main1{
 
   padding-top: 5px;
-   
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: stretch;
+
 }
 #fresh{
     font-size: 14pt;
@@ -28,17 +32,21 @@ h1, h2 {
 #friends{
     float:left;
     border: 4px solid rgb(77, 138, 235);
-    overflow: hidden;
-    
     background-color: #A8F0F0;
     width:20%;
     clear: right;
     padding: 5px;
+    order: 1;
+    flex-basis: 25%;
 
 }
 .blue{
-      overflow: hidden;
+      
       padding-left: 5px;
+      flex-basis: 75%;
+     
+     
+
 
 }
 .main{ 
@@ -55,9 +63,7 @@ h1, h2 {
     border-width: 4px;
     background-color:  #E8FBFB;
     padding: 5px;
-    
-    overflow: hidden;
-
+  
 }
 #blue-box2{
     border-style: solid;
@@ -65,15 +71,18 @@ h1, h2 {
     border-width: 4px;
     background-color:  #E8FBFB;
     padding: 5px;
-    overflow: hidden;
+ 
     margin-top: 5px;
 }
 #blue-box1:hover{color: yellow;}
 #blue-box2:hover{color: yellow;}
 
 .image{
+    display: block;
     float: right;
-    clear: right;
+    width: auto;
+    height: auto;
+    
 }
 .date{
     border-bottom: 2px blue dashed;
