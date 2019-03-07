@@ -6,4 +6,4 @@ Finish all exercises given in `lab3.pdf` file in this repo. The initial source c
 
 - **Student ID**: u1610001
 - **Student Name**: Abbosjon Kudratov
-- **Section Number**: 001 ICE-16-1
+- **Section Number**: 004 ICE-16-1
